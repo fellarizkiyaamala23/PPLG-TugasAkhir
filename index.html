@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="home.css" rel="stylesheet" />
+    <title>Home-PPLG</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+      <div
+        class="container-custom d-flex align-items-center justify-content-between flex-wrap"
+      >
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          PENGEMBANGAN PERANGKAT<br />
+          LUNAK & GIM
+        </a>
+
+        <!-- Toggler (mobile) ini digunakan pas di HP, navbar jadi garis 3 -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#about">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Galeri
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="galeri.html">Fasilitas</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="teacher.html"
+                    >Tenaga Pendidik</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="berita.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactUS.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--  HERO  -->
+    <section class="hero">
+      <div class="container-custom">
+        <div class="row align-items-center g-6">
+          <!-- Kiri (tulisan) -->
+          <div class="col-lg-6">
+            <p class="hero-subtitle">WELCOME TO OUR WEBSITE !</p>
+
+            <h1 class="hero-title">
+              PENGEMBANGAN <br />
+              PERANGKAT LUNAK & GIM
+            </h1>
+
+            <p class="hero-text">
+              Selamat datang di website Program Keahlian Pengembangan Perangkat
+              Lunak & Gim. Temukan informasi mengenai profil, fasilitas, tenaga
+              pendidik, galeri kegiatan, dan berita terbaru seputar PPLG.
+            </p>
+
+            <a href="#about" class="btn btn-explore">
+              Explore More
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Kanan -->
+          <div class="col-lg-6 text-center">
+            <img src="img1.png" class="img-fluid hero-image" alt="Hero" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about" id="about">
+      <!-- Card -->
+      <div class="row g-0 about-card">
+        <div class="col-md-4">
+          <div class="card-box card1">
+            <i class="bi bi-megaphone-fill"></i>
+            <p>
+              Menyajikan <b>berita terbaru</b>
+              tentang Program Keahlian PPLG
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card-box card2">
+            <i class="bi bi-signpost-2-fill"></i>
+            <p>
+              Menunjukkan <b>profil</b>
+              Program Keahlian PPLG yang ada di SMK N 1 Kandeman.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card-box card3">
+            <i class="bi bi-phone-fill"></i>
+            <p><b>Media</b> yang ditujukan kepada masyarakat secara online.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-custom">
+        <!-- Isi About -->
+        <div class="row align-items-center about-content">
+          <div class="col-lg-6 text-center">
+            <img src="img2.png" class="about-image" alt="About" />
+          </div>
+
+          <div class="col-lg-6">
+            <small class="about-small">About Us</small>
+
+            <h2 class="about-title">Apa itu Program Keahlian PPLG ?</h2>
+
+            <p class="about-text">
+              Program Keahlian Pengembangan Perangkat Lunak dan Gim (PPLG)
+              merupakan jurusan yang mempelajari pembuatan aplikasi, website,
+              game, dan berbagai teknologi perangkat lunak untuk mempersiapkan
+              siswa menghadapi dunia kerja maupun dunia industri.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= COMPETENCY ================= -->
+    <section class="competency">
+      <div class="container-custom">
+        <!-- Judul -->
+        <p class="section-small">OUR COMPETENCY GOALS</p>
+
+        <!-- VISI -->
+        <h2 class="section-title">VISI</h2>
+
+        <p class="section-desc">
+          Menjadi Program Keahlian terdepan yang inovatif dan modern,
+          menciptakan lulusan yang berprestasi, kreatif dalam bidang teknik
+          komputer, berakhlak mulia, disiplin, dan bertanggung jawab.
+        </p>
+
+        <!-- MISI -->
+        <h2 class="section-title mt-5">MISI</h2>
+
+        <div class="row justify-content-center mt-5 g-5">
+          <!-- Kolom Kiri -->
+          <div class="col-lg-5">
+            <div class="mission-item">
+              <i class="bi bi-book-half"></i>
+              <div>
+                <p>
+                  Menjadi Program Keahlian terdepan yang inovatif dan modern,
+                  menciptakan lulusan yang berprestasi, kreatif dalam bidang
+                  teknik komputer, berakhlak mulia, disiplin dan bertanggung
+                  jawab.
+                </p>
+              </div>
+            </div>
+
+            <div class="mission-item">
+              <i class="bi bi-building"></i>
+              <div>
+                <p>
+                  Melengkapi sarana dan prasarana pendidikan sesuai kebutuhan
+                  perkembangan industri teknologi komputer.
+                </p>
+              </div>
+            </div>
+
+            <div class="mission-item">
+              <i class="bi bi-card-checklist"></i>
+              <div>
+                <p>
+                  Mendorong kegiatan yang membentuk karakter, inovatif, kreatif,
+                  berjiwa sosial, dan berbudi pekerti.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan -->
+          <div class="col-lg-5">
+            <div class="mission-item">
+              <i class="bi bi-graph-up-arrow"></i>
+              <div>
+                <p>
+                  Mengembangkan riset terapan yang kontekstual dalam bidang
+                  rekayasa perangkat lunak.
+                </p>
+              </div>
+            </div>
+
+            <div class="mission-item">
+              <i class="bi bi-house-door"></i>
+              <div>
+                <p>
+                  Membiasakan penerapan budaya industri di lingkungan sekolah.
+                </p>
+              </div>
+            </div>
+
+            <div class="mission-item">
+              <i class="bi bi-people-fill"></i>
+              <div>
+                <p>
+                  Mendorong kegiatan kolaborasi dan literasi bersama dunia
+                  industri.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  ABOUT 2  -->
+    <section class="about2">
+      <div class="container-custom">
+        <div class="row justify-content-center align-items-center g-5">
+          <!-- Kiri -->
+          <div class="col-lg-5">
+            <p class="about-label">WHAT WILL YOU LEARN?</p>
+
+            <h2 class="about2-title">
+              Apa saja yang dipelajari di Program Keahlian PPLG?
+            </h2>
+
+            <div class="line"></div>
+
+            <div class="materi">
+              <h4>Algoritma</h4>
+              <p>
+                Algoritma Dasar • Flowchart • DFD • ERD • Basis Data • Struktur
+                Data • dan materi lainnya.
+              </p>
+            </div>
+
+            <div class="materi">
+              <h4>Coding</h4>
+              <p>
+                C++ • Java • Python • PHP • JavaScript • HTML • CSS • Laravel •
+                React • dan lainnya.
+              </p>
+            </div>
+
+            <div class="materi">
+              <h4>Desain</h4>
+              <p>
+                Figma • UI/UX • Photoshop • CorelDraw • Web Design • Multimedia.
+              </p>
+            </div>
+          </div>
+
+          <!-- Kanan -->
+          <div class="col-lg-5 text-center">
+            <img
+              src="img3.png"
+              class="about2-image img-fluid"
+              alt="Materi PPLG"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  KEUNGGULAN -->
+    <section class="advantages">
+      <div class="container-custom">
+        <h2 class="section-heading">Keunggulan Kompetensi Keahlian PPLG</h2>
+
+        <div class="row justify-content-center g-5 mt-4">
+          <div class="col-md-4">
+            <div class="adv-card">
+              <i class="bi bi-hand-thumbs-up"></i>
+              <h4>Lulusan</h4>
+              <p>
+                Lulusan dibekali keterampilan yang mumpuni, pengalaman bekerja
+                di industri, dan sertifikat keahlian sesuai jurusan.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="adv-card">
+              <i class="bi bi-award-fill"></i>
+              <h4>Prestasi</h4>
+              <p>
+                Aktif mengikuti Lomba Kompetensi Siswa Nasional (LKSN) tingkat
+                nasional.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="adv-card">
+              <i class="bi bi-building"></i>
+              <h4>Fasilitas</h4>
+              <p>
+                Laboratorium modern, ruang praktik nyaman, dan studio
+                pembelajaran.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="adv-card">
+              <i class="bi bi-person"></i>
+              <h4>Guru dan Staf</h4>
+              <p>Guru profesional, berpengalaman, dan kompeten di bidangnya.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="adv-card">
+              <i class="bi bi-people-fill"></i>
+              <h4>Kerjasama</h4>
+              <p>
+                Kerjasama dengan berbagai perusahaan dan institusi pendidikan.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="adv-card">
+              <i class="bi bi-bar-chart-fill"></i>
+              <h4>Kewirausahaan</h4>
+              <p>
+                Mengembangkan jiwa entrepreneur melalui berbagai program
+                sekolah.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  TECHNOLOGY  -->
+    <section class="technology">
+      <div class="container-custom">
+        <h2>
+          Explore The Latest Technologies <br />
+          With Popular Tools.
+        </h2>
+
+        <div class="line line-center"></div>
+
+        <p>
+          Pelajari berbagai bahasa pemrograman dan tools yang digunakan di dunia
+          industri.
+        </p>
+
+        <div class="tools">
+          <img src="img4.png" alt="tool" />
+          <img src="img5.png" alt="tool" />
+          <img src="img6.png" alt="tool" />
+          <img src="img7.png" alt="tool" />
+          <img src="img8.png" alt="tool" />
+          <img src="img9.png" alt="tool" />
+        </div>
+      </div>
+    </section>
+
+    <!--  MITRA  -->
+    <section class="partner">
+      <div class="container-custom">
+        <h2>Mitra Industri</h2>
+
+        <p>
+          Kerjasama yang solid antara dunia industri dan institusi pendidikan
+          untuk mendukung pengalaman belajar siswa.
+        </p>
+
+        <div class="partner-logo">
+          <img src="img10.png" alt="partner" />
+          <img src="img11.png" alt="partner" />
+          <img src="img12.png" alt="partner" />
+          <img src="img13.png" alt="partner" />
+          <img src="img14.png" alt="partner" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT  -->
+    <section class="contact">
+      <div class="contact-container">
+        <!-- Kiri -->
+        <div class="contact-left">
+          <h2>Want to ask ?</h2>
+          <a href="contactUS.html" class="btn-contact">
+            Contact Us
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Kanan -->
+        <div class="contact-right">
+          <div class="contact-card">
+            <i class="bi bi-telephone-fill"></i>
+            <h5>123-456-789</h5>
+            <span>Phone Support</span>
+          </div>
+
+          <div class="contact-card">
+            <i class="bi bi-envelope-fill"></i>
+            <h5>pplg@gmail.com</h5>
+            <span>Email Address</span>
+          </div>
+
+          <div class="contact-card">
+            <i class="bi bi-geo-alt-fill"></i>
+            <h5>Kandeman, Batang</h5>
+            <span>Office Address</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+      <div class="container-custom">
+        <div class="row gy-5">
+          <!-- Logo & Deskripsi -->
+          <div class="col-lg-5 col-md-6">
+            <div class="footer-brand">
+              <img src="LOGO PPLG.png" class="logo-footer" alt="Logo PPLG" />
+              <div class="ms-3">
+                <h1 class="logo-title">PPLG</h1>
+                <h6 class="logo-subtitle">SMK N 1 KANDEMAN</h6>
+              </div>
+            </div>
+            <p class="footer-text">
+              PPLG sendiri menjadi Pusat Keunggulan bidang Ekonomi Kreatif sejak
+              terpilihnya SMK Negeri 1 Kandeman menjadi penerima Program SMK
+              Pusat Keunggulan oleh Kementerian Pendidikan dan Kebudayaan
+              Republik Indonesia.
+            </p>
+          </div>
+
+          <!-- Our Links -->
+          <div class="col-lg-3 col-md-3 col-6">
+            <h4 class="footer-title">Our Links</h4>
+            <ul class="footer-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="berita.html">News</a></li>
+              <li><a href="galeri.html">Galeri</a></li>
+              <li><a href="contactUS.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Follow Us -->
+          <div class="col-lg-4 col-md-3 col-6">
+            <h4 class="footer-title">Follow Us</h4>
+            <div class="social">
+               <a href="https://www.instagram.com/pplg.skansaka?igsh=YnR6ZXVmb3NqaTA0"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/pages/Smk%20Negeri%201%20Kandeman/115859442081370/#"><i class="bi bi-facebook"></i></a>
+              <a href="https://youtube.com/@smkn1kandeman?si=Mmb77mfbQEiyTtVt"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+
+        <p class="footer-bottom">
+          &copy; 2026 PPLG SMK N 1 Kandeman. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Navbar: kasih background begitu halaman discroll -->
+    <script>
+      const navbarEl = document.querySelector(".navbar-custom");
+
+      function toggleNavbarBg() {
+        if (window.scrollY > 20) {
+          navbarEl.classList.add("navbar-scrolled");
+        } else {
+          navbarEl.classList.remove("navbar-scrolled");
+        }
+      }
+
+      window.addEventListener("scroll", toggleNavbarBg);
+      toggleNavbarBg();
+    </script>
+  </body>
+</html>
